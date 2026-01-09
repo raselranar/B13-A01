@@ -50,7 +50,7 @@ header nav .menu a {
   background-image: url("../assets/hero-bg.png");
   padding-top: 115px;
   padding-bottom: 180px;
-  background-repeat: none;
+  background-size: cover;
 }
 #banner .banner-container {
   max-width: 770px;
@@ -186,4 +186,29 @@ header nav .menu a {
 .info-list img {
   max-width: 20px;
   max-height: 20px;
+}
+/* Early Access section */
+#early-access .early-access-container {
+  margin-bottom: 120px;
+  text-align: center;
+  padding: 80px 40px;
+  background-color: #f7f6f2;
+  border-radius: 12px;
+}
+.early-access-container header h2 {
+  font-size: 40px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.early-access-container header p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #627382;
+  margin-bottom: 24px;
+}
+.early-access-container > p {
+  margin-top: 16px;
+  line-height: 20px;
+  font-size: 16px;
+  color: #627382;
 }
