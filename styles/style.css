@@ -19,6 +19,9 @@
   border-radius: 4px;
   cursor: pointer;
 }
+.btn:hover {
+  background-color: #30b869e0;
+}
 .container-center {
   max-width: 1360px;
   width: 85%;
@@ -89,13 +92,24 @@ header nav .menu a:hover {
   color: white;
   line-height: 24px;
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 32px;
 }
 .banner-container .banner-buttons {
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+.banner-buttons .play-icon {
+  border-radius: 4px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+}
+.banner-buttons .play-icon img {
+  margin: 0 10px 0 0;
+}
+.play-icon:hover {
+  background-color: #30b869e0;
 }
 
 /* notes problem section styles */
@@ -127,6 +141,16 @@ header nav .menu a:hover {
   border-radius: 8px;
   text-align: center;
 }
+.cards-container .card .icon {
+  display: inline-block;
+  background-color: #f95555;
+  padding: 13px 14px;
+  border-radius: 50%;
+  margin-top: 46px;
+}
+.cards-container .card .icon img {
+  vertical-align: middle;
+}
 .cards-container .card h3 {
   color: #001931;
   font-size: 24px;
@@ -137,6 +161,7 @@ header nav .menu a:hover {
   line-height: 20px;
   font-size: 16px;
   color: #627382;
+  margin-top: 46px;
 }
 /* second brain section styles */
 #second-brain {
@@ -146,6 +171,10 @@ header nav .menu a:hover {
   display: flex;
   align-items: center;
   gap: 60px;
+  text-align: left;
+}
+.second-brain-container-info header {
+  max-width: 73%;
 }
 .second-brain-container header .the-solution-text {
   color: #469165;
@@ -234,6 +263,12 @@ footer {
 .footer-container .social-icons a {
   margin-right: 16px;
 }
+footer hr {
+  border: none;
+  background-color: #ffffff36;
+  height: 1px;
+}
+
 .copy-right-container {
   padding-top: 30px;
 }
@@ -241,4 +276,9 @@ footer {
   color: #fafafa;
   line-height: 24px;
   font-size: 16px;
+}
+
+.btn img {
+  vertical-align: middle;
+  margin-left: 10px;
 }
