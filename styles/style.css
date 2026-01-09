@@ -89,3 +89,52 @@ header nav .menu a {
   justify-content: center;
   gap: 16px;
 }
+
+/* notes problem section styles */
+
+/* #notes-problem .notes-problem-container {
+  margin: 0 auto;
+  max-width: 1360px;
+  width: 85%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+
+.notes-problem-container header {
+  margin-bottom: 44px;
+  padding-top: 44px;
+  text-align: center;
+}
+.notes-problem-container header h2 {
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.notes-problem-container header p {
+  line-height: 20px;
+  color: #61717e;
+  font-size: 16px;
+}
+#notes-problem .cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+#notes-problem .cards-container .card {
+  max-width: 322px;
+  padding: 24px;
+  box-shadow: 0 0 8px 0 #20202029;
+  border-radius: 8px;
+  text-align: center;
+}
+.cards-container .card h3 {
+  color: #001931;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.cards-container .card p {
+  line-height: 20px;
+  font-size: 16px;
+  color: #627382;
+}
