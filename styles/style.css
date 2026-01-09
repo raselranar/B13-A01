@@ -47,9 +47,10 @@ header nav .menu a {
 
 /* banner styles */
 #banner {
-  background-image: url("/assets/hero-bg.png");
+  background-image: url("../assets/hero-bg.png");
   padding-top: 115px;
   padding-bottom: 180px;
+  background-repeat: none;
 }
 #banner .banner-container {
   max-width: 770px;
@@ -137,4 +138,52 @@ header nav .menu a {
   line-height: 20px;
   font-size: 16px;
   color: #627382;
+}
+/* second brain section styles */
+#second-brain {
+  padding: 120px 0;
+}
+#second-brain .second-brain-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.second-brain-container header .the-solution-text {
+  color: #469165;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.second-brain-container header h2 {
+  margin: 16px 0;
+  font-size: 48px;
+  color: #001931;
+}
+.second-brain-container header h2 + p {
+  line-height: 20px;
+  font-size: 16px;
+  color: #627382;
+}
+
+.second-brain-container-info .info-list {
+  /* list-style-image: url("../assets/CheckCircle.png"); */
+  margin-top: 40px;
+}
+.second-brain-container .info-list li {
+  margin: 16px 0;
+  list-style-type: none;
+  /* vertical-align: middle; */
+  display: flex;
+  gap: 6px;
+}
+
+.second-brain-container-info .info-list li p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #001931;
+}
+.info-list img {
+  max-width: 20px;
+  max-height: 20px;
 }
